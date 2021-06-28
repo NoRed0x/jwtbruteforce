@@ -1,14 +1,12 @@
 # jwtbruteforce
 
 ### WordList
-#### you can use your own wordlist or use other [wordlists](https://github.com/digination/dirbuster-ng/tree/master/wordlists)
 
 ## Installation & Usage
 
 # How To Use
 
 #### you can use -h argument
-#### you should install [JWT/PyJWT & colorama] on python using requirements file
 ## Options
 ```
 usage: jwtbruteforce.py [-h] [-k KIND] [-t TOKEN] [-w WORDLIST] [-p PAYLOAD] [-P PASSWORD] [-a HEADER]
