@@ -32,7 +32,7 @@ python3 jwtbruteforce.py -k jwt -t "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXR
  python3 jwtbruteforce.py -k jwt -t "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjoie1widXNlcm5hbWVcIjpcInRlc3RcIixcInJvbGVcIjpcInVzZXJcIn0ifQ.XSPy0jZd8CEtHl2e3C1SjPaewco1tjO3iajbkJy2OFQ"
  ```
  
-# Generate encryption-based JWT token.
+## Generate encryption-based JWT token.
 ```
 python3 jwtbruteforce.py  -P 123456 -a "{"typ":"JWT","alg":"HS256"}" -p {"user":"admin"}  
 ```
