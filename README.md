@@ -1,7 +1,4 @@
-# jwtbruteforce
-
-### WordList
-
+## jwtbruteforce
 ## Installation & Usage
 
 # How To Use
