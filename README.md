@@ -1,9 +1,8 @@
-## jwtbruteforce
+# jwtbruteforce
 ## Installation & Usage
 
-# How To Use
+## How To Use
 
-#### you can use -h argument
 ## Options
 ```
 usage: jwtbruteforce.py [-h] [-k KIND] [-t TOKEN] [-w WORDLIST] [-p PAYLOAD] [-P PASSWORD] [-a HEADER]
@@ -28,7 +27,7 @@ optional arguments:
 ```
 python3 jwtbruteforce.py -k jwt -t "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjoie1widXNlcm5hbWVcIjpcInRlc3RcIixcInJvbGVcIjpcInVzZXJcIn0ifQ.XSPy0jZd8CEtHl2e3C1SjPaewco1tjO3iajbkJy2OFQ" -w /usr/share/wordlists/rockyou.txt
 ```
- tool default  usage wordlist `/usr/share/wordlists/rockyou.txt`
+ ### tool default  usage wordlist `/usr/share/wordlists/rockyou.txt`
  ```
  python3 jwtbruteforce.py -k jwt -t "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjoie1widXNlcm5hbWVcIjpcInRlc3RcIixcInJvbGVcIjpcInVzZXJcIn0ifQ.XSPy0jZd8CEtHl2e3C1SjPaewco1tjO3iajbkJy2OFQ"
  ```
