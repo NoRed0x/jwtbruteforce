@@ -1,8 +1,10 @@
 # jwtbruteforce
 ## Installation & Usage
-
-## How To Use
-
+```
+python3 -m pip install gsutil 
+pip3 install jwcrypto
+pip3 install PyJWT==1.7.1
+```
 ## Options
 ```
 usage: jwtbruteforce.py [-h] [-k KIND] [-t TOKEN] [-w WORDLIST] [-p PAYLOAD] [-P PASSWORD] [-a HEADER]
