@@ -1,4 +1,5 @@
 # jwtbruteforce
+brute force and decode jwt
 ## Installation & Usage
 ```
 python3 -m pip install gsutil 
@@ -16,12 +17,7 @@ optional arguments:
                         token which wanna crack
   -w WORDLIST, --wordlist WORDLIST
                         wordlist which will be used in cracking
-  -p PAYLOAD, --payload PAYLOAD
-                        PAYLOAD:DATA
-  -P PASSWORD, --password PASSWORD
-                        key
-  -a HEADER, --header HEADER
-                        HEADER:ALGORITHM & TOKEN TYPE
+
 
 ```
 ## Simple usage
@@ -33,8 +29,3 @@ python3 jwtbruteforce.py -k jwt -t "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXR
  ```
  python3 jwtbruteforce.py -k jwt -t "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjoie1widXNlcm5hbWVcIjpcInRlc3RcIixcInJvbGVcIjpcInVzZXJcIn0ifQ.XSPy0jZd8CEtHl2e3C1SjPaewco1tjO3iajbkJy2OFQ"
  ```
- 
-## Generate encryption-based JWT token.
-```
-python3 jwtbruteforce.py  -P 123456 -a "{"typ":"JWT","alg":"HS256"}" -p {"user":"admin"}  
-```
