@@ -8,7 +8,7 @@ pip3 install PyJWT==1.7.1
 ```
 ## Options
 ```
-usage: jwtbruteforce.py [-h] [-k KIND] [-t TOKEN] [-w WORDLIST] [-p PAYLOAD] [-P PASSWORD] [-a HEADER]
+usage: jwtbruteforce.py [-h] [-k KIND] [-t TOKEN] [-w WORDLIST] 
 
 optional arguments:
   -h, --help            show this help message and exit
